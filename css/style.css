@@ -2,44 +2,43 @@ body {
   background-color: rgb(237, 242, 244);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.container {
-  max-width: 600px;
-  margin: 60px auto;
-  background: white;
-  padding: 40px;
-  box-shadow: 10px 5px 5px rgba(161, 161, 161, 0.04);
-  border-radius: 10px;
-}
-
-.city {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-  padding: 20px 0;
-  border-bottom: 1px dotted rgb(237, 237, 237);
-}
-
-.city:last-child {
-  border: none;
-}
 h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
   color: rgb(0, 39, 91);
 }
+h2 {
+  margin: 0;
+  color: rgb(0, 55, 127);
+  margin: 0 0 10px;
+}
+
 select {
   display: block;
   width: 100%;
   padding: 10px;
   font-size: 18px;
 }
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
 
-h2 {
-  margin: 0;
-  color: rgb(0, 55, 127);
-  margin: 0 0 10px;
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
 }
 
 .date {
